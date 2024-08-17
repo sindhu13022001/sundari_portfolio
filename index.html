@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sundari D</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skillsets</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sundari D</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/sundari_image1-removebg-preview-photoaidcom-cropped (2).jpg" alt="Sundari profile picture" >
+        </div>
+        <div class="section__text" data-aos="fade-up">
+            <p class="section__text__p1">Hello, It's Me</p>
+            <h1 class="title">Sundari D</h1>
+            <!-- <p class="section__text__p2">Test Engineer</p> -->
+            <h2><span id="text"></span></h2>
+        
+        
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Sundarid_1.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/icons8-linkedin-30.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sundari-d-322142229'">
+            <img src="./assets/icons8-github-30.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://github.com'">
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container" data-aos="zoom-in">
+            <!-- <div class="section__pic-container">
+                <img src="assets/sundari_image1.jpg" alt="profile picture" class="about-pic">
+            </div> -->
+            
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/icons8-work-experience-30.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Automation Test Engineer <br />INFOSYS LIMITED, Bangalore(AUG 2022 - Current)</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="assets/icons8-graduate-26.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E Bachelor Of Engineering Degree <br/>Government College of Engineering, Tirunelveli, TamilNadu <br />CGPA: 7.96/10</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        As a Software Test Engineer at Infosys Limited, I combine technical expertise with a detail-oriented approach to ensure that every application I work on meets the highest standards of quality. I am a quick learner who adapts swiftly to new technologies and environments. I am looking for an opportunity to work in a challenging position that allows me to utilize my skills while offering professional development, interesting experiences, and personal growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/icons8-double-down-26.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Expertise</h1>
+        <div class="experience-details-container" data-aos="fade-in">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages and Databases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Selenium</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML, CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Tools & Methodologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>NumPy</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Flask</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="assets/icons8-approval-30.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Jira, Agile</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/icons8-double-down-26.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers" data-aos="fade-in">
+            <div class="details-container color-container">
+                <!-- <div class="article-container">
+                    <img src="" alt="Project 1" class="project-img">
+                </div> -->
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                
+                <div class="text-container1">
+                    <h3 class="experience-project-subtitle">Client: DELL TECHNOLOGIES</h3>
+                <p> ➢ Led the development and maintenance of automated test scripts specifically tailored for DELL’s SupportAssist applications, which are integral to hardware diagnostics and system optimization.<br/>
+                    ➢ Managed issue tracking and resolution through JIRA, ensuring effective communication and prompt fixes between QA and development teams.<br/>
+                    ➢ Conducted thorough testing of DELL’s software builds, including SupportAssist and Repair modules, focusing on their interaction with various laptop hardware components.<br/>
+                    ➢ Performed exploratory testing to detect hardware-related edge cases and integrated these findings into the automation framework, significantly improving test coverage and reliability.<br/>
+                </p>
+            </div>
+            </div>
+            <div class="details-container color-container">
+                <!-- <div class="article-container">
+                    <img src="" alt="Project 2" class="project-img">
+                </div> -->
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                
+                <div class="text-container1">
+                    <h3 class="experience-project-subtitle">Client: CMACGM</h3>
+                <p> ➢ Engineered and sustained automated scripts for data quality assurance within the Databricks environment, leveraging Python to handle complex datasets.<br/>
+                    ➢ Performed thorough database validations and SQL-based testing within Databricks to maintain data integrity at scale.<br/>
+                    ➢ Automated cross-environment data quality verifications, executing tests to ensure uniformity and dependability across various Databricks instances.<br/>
+                    ➢ Identified, documented, and collaborated on resolving data discrepancies with multidisciplinary teams, leading to significant improvements in data precision and reliability.<br/>
+                </p>
+            </div>
+        </div>
+            </div>
+        </div>
+        <img src="assets/icons8-double-down-26.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <!-- <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/icons8-mail-48.png" alt="Email icon" class="icon contact-icon">
+                <p><a href="mailto:sundarid1302@gmail.com">sundarid1302@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/icons8-linkedin-30.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/sundari-d-322142229">LinkedIn</a></p>
+            </div>
+        </div> -->
+            <div class="contact-info">
+                <!-- <a href="https://t.me/RajBitMart" class="telegram-button">Contact me on Telegram</a> -->
+                <div class="contact-details">
+                    <div>
+                        <a href="mailto:sundarid1302@gmail.com">
+                            <img src="assets/icons8-mail-94.png" alt="Email" class="contact-icon">
+                        </a>
+                    </div>
+                    <!-- <div>
+                        <a href="https://t.me/RajBitMart">
+                            <img src="Logo/icons8-telegram-logo-48.png" alt="Telegram" class="contact-icon">
+                        </a>
+                    </div> -->
+                    <div>
+                        <a href="https://www.linkedin.com/in/sundari-d-322142229">
+                            <img src="assets/icons8-linkedin-logo-48.png" alt="LinkedIn" class="contact-icon">
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#accomplishments">Accomplishments</a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>  
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>Copyright © 2024-2025 Sundari. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#text', {
+          strings: ['Test Engineer', 'Pythonist', 'Fast Learner'],
+          typeSpeed:100,
+          backSpeed:100,
+          backDelay:1000,
+          loop:true
+        });
+      </script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            offset: 300,
+            duration: 1450,
+        });
+        </script>
+    <script src="script.js"></script>
+</body>
+</html>
